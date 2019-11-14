@@ -43,7 +43,8 @@ export default {
   data() {
     return {
       drawer: null,
-      items: [{ title: "User Controller", icon: "mdi-human-male" }]
+       items: [{ title: "User Controller", icon: "mdi-human-male", name:'userController'},
+                {title: "Branch Controller", icon: "mdi-car", name:'branchController'}]
     };
   }
 };
